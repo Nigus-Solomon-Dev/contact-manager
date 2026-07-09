@@ -8,7 +8,13 @@ const contactRoutes = require('./routes/contactRoutes');
 const app=express();
 
 //allow front end to connect
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    /\.vercel\.app$/
+  ],
+  credentials: true
+}));
 app.use(express.json())
 app.use('/api/auth',authRouter)
 app.use('/api/contacts', contactRoutes);

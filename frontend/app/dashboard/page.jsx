@@ -3,7 +3,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import api from '@/utils/api';
-import Login from '../login/page';
 export default function Dashboard() {
   const router = useRouter();
   const [contacts, setContacts] = useState([]);

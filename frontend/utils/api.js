@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api=axios.create({
-  baseURL:'https://contact-manager-backend-0bg3.onrender.com',
+  baseURL:'https://contact-manager-backend-0bg3.onrender.com/api',
   headers:{
      'Content-Type': 'application/json',
   }

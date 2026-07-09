@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import api from '@/utils/axios';
+import api from '@/utils/api';
 
 export default function Login() {
   const router = useRouter();

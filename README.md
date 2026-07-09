@@ -1,5 +1,7 @@
 # Contact Manager
 
+**Live App**: [https://contact-manager-nine-kappa.vercel.app](https://contact-manager-nine-kappa.vercel.app)
+
 A full-stack contact management application built with Next.js and Express.js, featuring secure authentication and CRUD operations for managing personal contacts.
 
 ## Features
